@@ -8,6 +8,7 @@ Headings must always be in order, you cannot have a `<h4>` before a `<h2>`.
 
 Document should have one main landmark. `<main role="main">`
 
+If you switch languages in your web page, indicate that change with the `lang` attribute.
 
 # CSS relevant instruction
 
@@ -18,3 +19,9 @@ Have some padding on the `<body>` so elements does not touch the edges on small 
 Prefer unitless numbers for `line-height` values to multiply the element's own font size.
 
 Set `font-size` on `html` if you use `rem` later in CSS.
+
+Avoid directional properties. Use logical properties instead.
+
+Avoid designing narrow columns because of possible long words.
+
+Make sure line-height values can accommodate characters like accents and other diacritics. Lines of text that look fine in English might overlap in a different language.
