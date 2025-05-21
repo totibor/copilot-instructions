@@ -25,3 +25,10 @@ Avoid directional properties. Use logical properties instead.
 Avoid designing narrow columns because of possible long words.
 
 Make sure line-height values can accommodate characters like accents and other diacritics. Lines of text that look fine in English might overlap in a different language.
+
+# Change Logging
+Each time you generate code, note the canges in a changelog.md file.
+
+Follow semantic versioning guidelinses.
+
+Include date and description of changes.
